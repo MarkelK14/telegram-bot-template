@@ -19,8 +19,13 @@ To use this template, ensure you have the following installed:
 ## Getting Started
 
 ### 1. Clone the Repository
+Clone the repository:
 ```bash
-git clone git@github.com:MarkelK14/telegram-bot-template.git && cd telegram-bot-template
+git clone git@github.com:MarkelK14/telegram-bot-template.git
+```
+Enter the cloned repository folder:
+```bash
+cd telegram-bot-template
 ```
 
 ### 2. Install Dependencies
@@ -30,18 +35,13 @@ npm install
 ```
 
 ### 3. Configure Environment Variables
-Then, edit the `.env` file in the root directory and add the following:
+Create a `.env` file in the root directory and add the following:
 ```env
 BOT_TOKEN=your-telegram-bot-token
 BOT_URL=https://your-server-domain.com
-PORT=3000
 ```
-
 - Replace `your-telegram-bot-token` with the token provided by [BotFather](https://core.telegram.org/bots#botfather).
 - Replace `your-server-domain.com` with the domain or IP address of your server.
-
-> [!TIP]
-> You can quickly create the `.env` file by copying the `.env.example` file.
 
 ### 4. Start the Server
 Run the server using the following command:
